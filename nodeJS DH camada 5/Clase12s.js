@@ -2,8 +2,12 @@ const alicia = [10, 80, 75];
 const bob = [90, 20, 25];
 
 let concurso = {
+
     Etapas: [],
+
     ganador: "",
+
+
     encontrarGanador: function (array1, array2) {
         let puntosAlicia = 0;
         let puntosBob = 0;
@@ -41,7 +45,8 @@ let concurso = {
 
 concurso.encontrarGanador(alicia,bob)
 console.log(concurso.ganador)
+console.log(concurso.Etapas)
 // concurso.exportarResultados();
 // console.log(concurso.Etapas);
 
-let json = JSON.stringify(concurso.Etapas);
+// let json = JSON.stringify(concurso.Etapas);

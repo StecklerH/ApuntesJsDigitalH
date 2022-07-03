@@ -43,7 +43,7 @@ let banco = {
                 clienteEncontrado = this.clientes[i]
             }
         }
-        return console.log(clienteEncontrado)
+        return clienteEncontrado
     },
 
     deposito: function (cliente,montoDeposito){
@@ -72,14 +72,25 @@ let banco = {
             return console.log("extracion exitosa, le queda en la cuenta " + resta);
         }
         
+    },
+
+    
+    deposito: function (cliente,montoDeposito){
+        let sum = 0;
+        // for (let i = 0; i < this.clientes.length; i++) {
+            if (this.consultarCliente(cliente) !== "No Existe") {
+               sum = this.consultarCliente(cliente).saldoEnPesos += montoDeposito;
+               return console.log("Deposito realizado, su nuevo saldo es: " + sum);
+            }
+        // }  
     }
 }
 
 
 
+console.log(banco.consultarCliente("Jacki Shurmer"))
 
-banco.consultarCliente("Jacki Shurmer")
 banco.deposito("Jacki Shurmer", 8000);
-banco.extraccion("Jacki Shurmer", 50000)
+// banco.extraccion("Jacki Shurmer", 50000)
 
-
+console.log(banco.consultarCliente("Jacki Shurmer"))

@@ -158,21 +158,21 @@
 
 // - Declarar 3 arrays de edades por ejemplo -> [10, 9, 8, 22, 55, 80, 5, 63, 29, 9] , 
 //   luego desarrollar las siguientes funciones:
-let arreglo1 = [10, 9, 8, 22, 55, 80, 5, 63, 29, 9];
-let arreglo2 = [22, 55, 80];
-let arreglo3 = [5, 63, 29];
-// 1 - Funcion que reciba un array de edades y retorne el promedio 
+// let arreglo1 = [10, 9, 8, 22, 55, 80, 5, 63, 29, 9];
+// let arreglo2 = [22, 55, 80];
+// let arreglo3 = [5, 63, 29];
+// // 1 - Funcion que reciba un array de edades y retorne el promedio 
 
-function promedio(array) {
-    let sumatoria = 0;
-    for (let i = 0; i <= array.length - 1; i++) {
-        sumatoria = sumatoria + array[i];
-    }
+// function promedio(array) {
+//     let sumatoria = 0;
+//     for (let i = 0; i <= array.length - 1; i++) {
+//         sumatoria = sumatoria + array[i];
+//     }
 
-    return sumatoria / array.length
-}
+//     return sumatoria / array.length
+// }
 
-console.log(promedio(arreglo1));
+// console.log(promedio(arreglo1));
 
 // 2 - Funcion que reciba un array de edades y retorne el mayor elemento // 80
 // let edades = [1, 1, 10];
@@ -203,7 +203,7 @@ console.log(promedio(arreglo1));
 // console.log(menorElemento(edades))
 
 // 4 - Funcion que reciba un array de edades y retorne true si encuentra algun elemento repetido o false caso contrario
-let edades = [4, 2, 3];
+// let edades = [4, 2, 3];
 // function elementosRepetidos(array) {
 //     for (let i = 0; i < array.length; i++) {
 //         for (let j = i + 1; j < array.length; j++) {
@@ -231,31 +231,31 @@ let edades = [4, 2, 3];
 // 6 - Funcion que reciba un array de edades y retorne un objeto literal con dos propiedades que contengan un array
 //    {
 //       edadesMenor : "// edades menor a 18",
-//       edadesMayor : "// edades menor a 18"
+//       edadesMayor : "// edades mayor a 18"
 //    }
 // nota : Se recomienda utilizar estructuras y conceptos vistos en la materia, pueden resolver con metodos pero tambien de forma imperativa (for if)
-let e = [15, 16, 17, 18, 19, 20, 21, 22, 23]
+// let e = [15, 16, 17, 18, 19, 20, 21, 22, 23]
 
-function constructor(array) {
-    let objeto = {
-        edadesMenor: [],
-        edadesMayor: []
-    };
+// function constructor(array) {
+//     let objeto = {
+//         edadesMenor: [],
+//         edadesMayor: []
+//     };
 
-    for (let i = 0; i < array.length; i++) {
-        if (array[i] < 18) {
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] < 18) {
 
-            objeto.edadesMenor.push(array[i])
-        } else {
+//             objeto.edadesMenor.push(array[i])
+//         } else {
 
-            objeto.edadesMayor.push(array[i])
-        }
-    }
+//             objeto.edadesMayor.push(array[i])
+//         }
+//     }
 
-    return objeto
-}
+//     return objeto
+// }
 
-console.log(constructor(e));
+// console.log(constructor(e));
 
 // Les dejo un ejercicio de objetos para que puedan practicar y lo vemos hoy por la noche!
 
@@ -268,6 +268,9 @@ console.log(constructor(e));
 // Tripulantes: Un Arreglo con los nombres de los tripulantes.
 // País de los tripulantes: Un arreglo con nombres de los países de los tripulantes
 // Estado: Un String que diga "Usada".
+
+
+
 
 // Despegar:
 // a) Una Función que imprima en la consola el siguiente mensaje:
@@ -285,3 +288,134 @@ console.log(constructor(e));
 // Extraé la cantidad de tripulantes usando Dot notation... ¿se puede?(pensar porque y dejar un comentario explicándolo)
 
 
+// let nave = {
+//     tipoNave:' ',
+//     pais: 'Arg',
+//     cantidadTripulantes: 0,
+//     tripulantes: [],
+//     paisTripulante: [],
+//     estado: ' ',
+//     despegue: function () {
+//         console.log('Hora de despegue');
+//     }
+// }
+// // //console.log(nave.pais.push('peru'));
+// // //console.log(nave.pais)
+
+// // console.log(nave.tipoNave = 'espacial');
+// // console.log();
+
+
+// function arregloObjeto(num,string){
+//     let objeto = []
+//     for(let i = 1 ; i<=num ; i++){
+      
+//        objeto.push({[string]: i})
+      
+
+//     }
+
+//     return objeto
+// }
+
+// console.log(arregloObjeto(5,"hola"))
+
+// function arregloObjeto1(num,string){
+//     let objeto = {}
+//     for(let i = 1 ; i<=num ; i++){
+      
+//         objeto[i] = [string];
+//         objeto.string = i
+//     }
+
+//     return objeto
+// }
+
+// console.log(arregloObjeto1(5,"hola"))
+
+
+
+// do {
+	
+// 	var nota = prompt("Introduce tu nota");
+
+// 	if (Number(nota) == nota) {
+
+// 		if (nota > 0 && nota <= 10) {
+// 			if (nota < 3) {
+// 				alert("Muy deficiente");
+// 			}
+// 			else if (nota < 5) {
+// 				alert("Insuficiete");
+// 			}
+// 			else if (nota < 6) {
+// 				alert("Suficiente");
+// 			}
+// 			else if (nota < 7) {
+// 				alert("Bien");
+// 			}
+// 			else if (nota < 9) {
+// 				alert("Notable"); 5
+// 			}
+// 			else if (nota >= 9) {
+// 				alert("Sobresaliente");
+// 			}
+// 		}
+	
+// 		else {
+// 			alert("Nota erronea");
+// 		}
+// 	}
+
+// 	else {
+		
+// 		if (nota != undefined) {	
+// 			alert("Introduce un numero valido");
+// 		}
+// 	}
+
+// } while (nota != undefined);	
+
+
+// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+
+// You may assume that each input would have exactly one solution, and you may not use the same element twice.
+
+// You can return the answer in any order.
+
+// Example 1:
+
+// Input: nums = [2,7,11,15], target = 9
+// Output: [0,1]
+// Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+// Example 2:
+
+// Input: nums = [3,2,4], target = 6
+// Output: [1,2]
+// Example 3:
+
+// Input: nums = [3,3], target = 6
+// Output: [0,1]
+ 
+
+// Constraints:
+
+// 2 <= nums.length <= 104
+// -109 <= nums[i] <= 109
+// -109 <= target <= 109
+// Only one valid answer exists.
+ 
+// let array = [3,2,4]
+
+function twoSum(numsArray,target){
+
+    for(let i=0 ; i<numsArray.length ; i++){
+        for(let j=0; j<numsArray.length ; j++){
+            if((numsArray[i] + numsArray[j]) == target && numsArray[i] !== numsArray[j]){
+                return "Indice 1 " + i + " indice 2 " + j + " es igual al target " + target
+            }
+        }
+    }
+}
+
+console.log(twoSum([2,11,15,3,4,5,6,7],9))

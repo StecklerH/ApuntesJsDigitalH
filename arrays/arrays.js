@@ -27,3 +27,4 @@ var posicion = frutas.indexOf("Cereza");
 console.log(posicion);
 
 //
+

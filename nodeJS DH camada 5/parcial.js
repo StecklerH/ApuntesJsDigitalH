@@ -37,14 +37,14 @@ Supongamos que tenemos un Arreglo llamado autos que tiene dos Objetos (un auto m
 // */
 
 
-//   function nuevoComprador(array,nombre,color){
-//     autos[0].dueñosAnteriores.push(autos[0].dueño);
-//     autos[0].dueño = nombre;
-//     autos[0].color.capot = color
+  // function nuevoComprador(array,nombre,color){
+  //   autos[0].dueñosAnteriores.push(autos[0].dueño);
+  //   autos[0].dueño = nombre;
+  //   autos[0].color.capot = color
     
-//     return autos
-//   }
-//   console.log(nuevoComprador(autos,"santiago","negro"))
+  //   return autos
+  // }
+  // console.log(nuevoComprador(autos,"santiago","negro"))
 
 
 
@@ -55,140 +55,141 @@ Supongamos que tenemos un Arreglo llamado autos que tiene dos Objetos (un auto m
 A)
 Utilizamos pop() para ...
 
-- Ingresar un elemento en la última posición del array
-- Eliminar un elemento ubicado en la primera posición del array
-- Ingresar un elemento en la primera posición del array
-- Eliminar un elemento ubicado en la última posición del array  Respuesta
+// - Ingresar un elemento en la última posición del array
+// - Eliminar un elemento ubicado en la primera posición del array
+// - Ingresar un elemento en la primera posición del array
+// - Eliminar un elemento ubicado en la última posición del array  Respuesta
 
-/*
-B) 
-Para encontrar la posición de un elemento dentro de un array, ¿cuál es la instrucción correcta?
+// /*
+// B) 
+// Para encontrar la posición de un elemento dentro de un array, ¿cuál es la instrucción correcta?
 
-- ["a", "b", "c", "d"].indexOf("c") respuesta
-- ["a", "b", "c", "d"].getItem("c")
-- ["a", "b", "c", "d"].positionOf("c")
-- ["a", "b", "c", "d"].get("c")
-*/
+// - ["a", "b", "c", "d"].indexOf("c") respuesta
+// - ["a", "b", "c", "d"].getItem("c")
+// - ["a", "b", "c", "d"].positionOf("c")
+// - ["a", "b", "c", "d"].get("c")
+// */
 
-/*
-C) 
-¿A qué valor estamos accediendo?
+// /*
+// C) 
+// ¿A qué valor estamos accediendo?
 
-let miArray = ["Ana", "Pedro", "Pablo"]
-miArray[miarray.lenth - 1]
+// let miArray = ["Ana", "Pedro", "Pablo"]
+// miArray[miarray.lenth - 1]
 
-- Ana
-- Pedro
-- Pablo respuesta
-- undefined
+// - Ana
+// - Pedro
+// - Pablo respuesta
+// - undefined
 
-*/
+// */
 
-/*
-D) 
-¿Cuál o cuales son las formas correctas de agregarle un nuevo dato a un objeto llamado persona?
+// /*
+// D) 
+// ¿Cuál o cuales son las formas correctas de agregarle un nuevo dato a un objeto llamado persona?
 
-- persona."edad" = 25
-- persona['edad'] = 25
-- persona.edad = 25 respuesta correcta
-- "persona".edad = 25
+// - persona."edad" = 25
+// - persona['edad'] = 25
+// - persona.edad = 25 respuesta correcta
+// - "persona".edad = 25
 
-*/
+// */
 
-/*
-E) 
-¿Qué se termina mostrando?
+// /*
+// E) 
+// ¿Qué se termina mostrando?
 
-let perro = {
-    nombre: "Charly",
-    edad: 6
-}
-let key = "nombre"
-console.log(perro[key])
+// let perro = {
+//     nombre: "Charly",
+//     edad: 6
+// }
+// let key = "nombre"
+// console.log(perro[key])
 
-- 0
-- key
-- nombre
-- Charly respuesta
-*/
+// - 0
+// - key
+// - nombre
+// - Charly respuesta
+// */
 
-/*
-F) 
-¿Qué se termina mostrando?
+// /*
+// F) 
+// ¿Qué se termina mostrando?
 
-let musicos = [
-    {
-        nombre: "Luca Prodan",
-        idiomas: ["Ingles", "Español"]
-    },
-    {
-        nombre: "Luis A. Spinetta",
-        idiomas: ["Español"]
-    }
-]
-console.log(musicos[1].idiomas[0])
+// let musicos = [
+//     {
+//         nombre: "Luca Prodan",
+//         idiomas: ["Ingles", "Español"]
+//     },
+//     {
+//         nombre: "Luis A. Spinetta",
+//         idiomas: ["Español"]
+//     }
+// ]
+// console.log(musicos[1].idiomas[0])
 
-- undefined
-- Español respuesta correcta
-- Inglés
-- Luca Prodan
-*/
+// - undefined
+// - Español respuesta correcta
+// - Inglés
+// - Luca Prodan
+// */
 
 
-//Ejercicio 2: 
+// //Ejercicio 2: 
 
-// Una funcion multiplicador que tome dos números como Parámetros y devuelva el producto de los dos.
-function multiplicador(a,b){
-  return a*b
-}
+// // Una funcion multiplicador que tome dos números como Parámetros y devuelva el producto de los dos.
+// function multiplicador(a,b){
+//   return a*b
+// }
 
-console.log(multiplicador(2,2))
+// console.log(multiplicador(2,2))
 
-// Una funcion resta que tome dos números como Parámetros y devuelva el la resta de los dos.
+// // Una funcion resta que tome dos números como Parámetros y devuelva el la resta de los dos.
 
-function resta(a,b){
-  return a-b
-}
+// function resta(a,b){
+//   return a-b
+// }
 
-console.log(resta(1,3))
+// console.log(resta(1,3))
 
-// Una funcion sumador que tome 4 numeros como parametros y te devuelva la suma de los 4. 
+// // Una funcion sumador que tome 4 numeros como parametros y te devuelva la suma de los 4. 
 
-function sumador(a,b,c,d){
-  return a+b+c+d
-}
+// function sumador(a,b,c,d){
+//   return a+b+c+d
+// }
 
-console.log(sumador(2,2,2,2))
+// console.log(sumador(2,2,2,2))
 
-//Ejercicio 3: 
+// //Ejercicio 3: 
 
-// Giannina necesita necesita comprar todo lo necesario para poder cocinar unas pizzas:
+// // Giannina necesita necesita comprar todo lo necesario para poder cocinar unas pizzas:
 
-let pizzas = ["harina", "levadura", "queso", "pure de tomates", "cebolla"]
+// let pizzas = ["harina", "levadura", "queso", "pure de tomates", "cebolla"]
 
-// - Agregá dos nuevos productos al final de la lista(lo que le quieras poner a tu pizza).
 
-pizzas.push("panceta","anchoas")
+// // - Agregá dos nuevos productos al final de la lista(lo que le quieras poner a tu pizza).
 
-// console.log(pizzas)
+// pizzas.push("panceta","anchoas")
 
-// - Agregá dos productos al principio de tu lista(lo que le faltaria para la salsa).
+// // console.log(pizzas)
 
-pizzas.unshift("aceitunas","morron")
+// // - Agregá dos productos al principio de tu lista(lo que le faltaria para la salsa).
 
-// console.log(pizzas)
-// - Determiná cuán largo es el Arreglo en este momento.
+// pizzas.unshift("aceitunas","morron")
 
-console.log(pizzas.length)
+// // console.log(pizzas)
+// // - Determiná cuán largo es el Arreglo en este momento.
 
-// - Sacá un producto y guardalo en una Variable que se llame noHabia.
+// console.log(pizzas.length)
 
-let nohabia = pizzas.shift()
-console.log(pizzas + " no hay " + nohabia)
-// - Sacá un producto y guardalo en otra Variable que se llame comprado.
+// // - Sacá un producto y guardalo en una Variable que se llame noHabia.
 
-let comprado = pizzas.pop()
-console.log(pizzas + " fue comprado " + comprado)
+// let nohabia = pizzas.shift()
+// console.log(pizzas + " no hay " + nohabia)
+// // - Sacá un producto y guardalo en otra Variable que se llame comprado.
+
+// let comprado = pizzas.pop()
+// console.log(pizzas + " fue comprado " + comprado)
 // - ¿Cuán largo es el Arreglo ahora?
 
 
@@ -222,31 +223,34 @@ ford.marca = ("ford")
 peugeot.marca = ("peugeot")
 volkswagen.marca = ("volkswagen")
 // console.log(ford)
-let autos= [];
+let autos = [];
+
+autos.push(ford,peugeot,volkswagen)
+
+
+// console.log(autos)
 // }
-function agregarAutos(objeto){
+// function agregarAutos(objeto){
     
-    autos.push(ford)
-    autos.push(peugeot)
-    autos.push(volkswagen)
+//     autos.push(ford)
+//     autos.push(peugeot)
+//     autos.push(volkswagen)
   
-  return autos
-}
+//   return autos
+// }
 
 // console.log(agregarAutos(autos))
 
 
-function incrementarPuertasFuturo(objeto){
+function incrementarPuertasFuturo(array){
  
-      objeto[0].puertas +=3
-      objeto[1].puertas +=3
-      objeto[2].puertas +=3
-  
-
-  return autos
+    for(let i=0 ; i<array.length ; i++){
+      array[i].puertas +=3
+    }
+  return array
 }
 
-console.log(incrementarPuertasFuturo(agregarAutos(autos)))
+console.log(incrementarPuertasFuturo(autos))
 
 //Estos 3 objetos, ahora tenes que pensar como podrias agregarlos al array. (utilizando un método JS, pensa cuál podrías utilizar)
 
